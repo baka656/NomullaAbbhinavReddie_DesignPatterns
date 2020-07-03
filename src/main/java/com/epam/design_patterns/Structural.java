@@ -123,13 +123,13 @@ public class Structural {
     private static int  choice;  
 	public void ittop() throws NumberFormatException, IOException{
 	   //adapter pattern
-		System.out.println("\nAdaptor pattern:\n");
+		System.out.println("Adaptor pattern:");
 		CreditCard targetInterface=new BankCustomer();  
 		targetInterface.giveBankDetails();  
 		System.out.print(targetInterface.getCreditCard()); 
 	  
 	  //decarator pattern
-		System.out.println("\n\n\nDecarator pattern:");
+		System.out.println("\n\nDecarator pattern:");
 		do{        
 	        System.out.print("========= Food Menu ============ \n");  
 	        System.out.print("            1. Vegetarian Food.   \n");  
